@@ -113,5 +113,5 @@ img[alt="Image2"] {
 }
 img {
  /* border-radius: 10px;*/
-  max-width: 20vw; /* phone width fix? */
+  max-width: 12vw; /* FM_logo.png size */
 }

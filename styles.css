@@ -82,18 +82,24 @@ section {
     width: 90%;
   margin-bottom: 10px auto;
   @media (max-width: 600px) {
+      nav li span::after {
+          max-width: 5vw;
+          }
     section {
       width: 100%;
       margin: 0;
       /* ... */
     }
   }
-    @media (max-width: 500px) {
+    @media (max-width: 600px) {
         section {
-          width: 98%;
+          width: 100%;
           margin: 5px;
           /* phone width */
         }
+         body {
+    transform: scale(0.8);
+  }
       }
 }
 p {
